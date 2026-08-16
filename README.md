@@ -63,24 +63,9 @@ scripts/
 
 ## Deploying for the submission
 
-The competition requires a **working, live link** judges can open. `node:sqlite` writes to a
-file on disk, which works great for `npm run dev`/`npm run start` but **will not persist**
-on serverless platforms (Vercel, etc.) since their filesystem resets between requests. Two
-good options:
-
-**Option A — Render (or Railway/Fly), simplest, no code changes.**
-Deploy as a persistent Node web service (`npm install && npm run build && npm run seed && npm run start`).
-The SQLite file lives on the instance's disk and persists exactly like it does locally.
-
-**Option B — Vercel with a hosted database.**
-Swap `src/lib/db.js` for a hosted Postgres (e.g. [Supabase](https://supabase.com) or
-[Neon](https://neon.tech), both have generous free tiers) and rewrite the raw SQL calls to use
-that driver instead. The schema in `db.js` is plain SQL, so the table definitions carry over
-directly — this is more work but is the standard production path and worth doing if you have a
-day to spare before the deadline.
-
-Either way, set a real `SESSION_SECRET` environment variable in production (see `.env` — a
-placeholder is generated for local dev, don't reuse it).
+See **[DEPLOY.md](./DEPLOY.md)** for step-by-step instructions (Render, free, no code changes —
+already wired up via `npm run render-start`). Set a real `SESSION_SECRET` environment variable
+in production (see `.env` — a placeholder is generated for local dev, don't reuse it).
 
 ## Before you submit
 
