@@ -10,9 +10,9 @@ export default async function Nav() {
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
         <Link href="/" className="flex items-center gap-2 font-semibold text-zinc-900">
           <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-indigo-600 text-sm text-white">
-            C
+            Q
           </span>
-          Commons
+          The Quad
         </Link>
 
         <nav className="hidden items-center gap-5 text-sm font-medium text-zinc-600 sm:flex">

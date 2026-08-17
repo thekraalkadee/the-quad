@@ -5,7 +5,7 @@ export default async function LoginPage({ searchParams }) {
   return (
     <div className="mx-auto max-w-md">
       <h1 className="mb-1 text-2xl font-bold text-zinc-900">Log in</h1>
-      <p className="mb-6 text-sm text-zinc-600">Welcome back to Commons.</p>
+      <p className="mb-6 text-sm text-zinc-600">Welcome back to The Quad.</p>
 
       <form action={loginUser} className="card flex flex-col gap-4">
         {params?.error && <p className="alert-error">{params.error}</p>}

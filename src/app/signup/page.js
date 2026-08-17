@@ -4,7 +4,7 @@ export default async function SignupPage({ searchParams }) {
   const params = await searchParams;
   return (
     <div className="mx-auto max-w-lg">
-      <h1 className="mb-1 text-2xl font-bold text-zinc-900">Join Commons</h1>
+      <h1 className="mb-1 text-2xl font-bold text-zinc-900">Join The Quad</h1>
       <p className="mb-6 text-sm text-zinc-600">
         One account, scoped to your campus by your school email.
       </p>
