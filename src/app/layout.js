@@ -2,7 +2,7 @@ import "./globals.css";
 import Nav from "@/components/Nav";
 
 export const metadata = {
-  title: "Commons — Campus Hub",
+  title: "The Quad — Campus Hub",
   description:
     "A campus-verified hub for peer 4-year plans, professor & org opportunities, and a student marketplace.",
 };

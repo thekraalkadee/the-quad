@@ -14,7 +14,7 @@ export default async function Home() {
           The people who know how to navigate your college are the students who already did.
         </h1>
         <p className="mt-4 max-w-2xl text-indigo-100">
-          Commons is a campus-verified hub where students share real 4-year plans instead of the
+          The Quad is a campus-verified hub where students share real 4-year plans instead of the
           generic one, professors and orgs put opportunities in front of the students who'd
           actually want them, and the end-of-year furniture scramble has one home instead of
           three group chats.
@@ -34,21 +34,21 @@ export default async function Home() {
       <section className="grid gap-5 sm:grid-cols-3">
         <ModuleCard
           href="/plans"
-          eyebrow="Module 01"
+          eyebrow="Platform 01"
           title="Plan Explorer"
           description="Browse real 4-year plans from students who've navigated your major, minor, or transfer path — filtered by what matters to you."
           cta="Explore plans"
         />
         <ModuleCard
           href="/opportunities"
-          eyebrow="Module 02"
+          eyebrow="Platform 02"
           title="Opportunity Board"
           description="Conferences, competitions, research openings, and talks from professors and student orgs, filtered by major and level."
           cta="Browse opportunities"
         />
         <ModuleCard
           href="/exchange"
-          eyebrow="Module 03"
+          eyebrow="Platform 03"
           title="The Exchange"
           description="Buy, sell, give away, or sublet — scoped to your campus only. Move-out season, solved."
           cta="Browse the exchange"

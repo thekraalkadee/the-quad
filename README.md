@@ -1,4 +1,4 @@
-# Commons — a campus hub for Pathfinders
+# The Quad — a campus hub for Pathfinders
 
 Built for the Stellic Pathfinders Challenge (Campus Connection category). Three modules, one
 campus-verified identity:
