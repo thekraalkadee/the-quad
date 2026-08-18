@@ -60,17 +60,3 @@ src/
 scripts/
   seed.mjs        Fictional demo data — edit this to change what the demo shows
 ```
-
-## Deploying for the submission
-
-See **[DEPLOY.md](./DEPLOY.md)** for step-by-step instructions (Render, free, no code changes —
-already wired up via `npm run render-start`). Set a real `SESSION_SECRET` environment variable
-in production (see `.env` — a placeholder is generated for local dev, don't reuse it).
-
-## Before you submit
-
-- [ ] Tools disclosure: this app was built with **Claude (via Claude Code / the Claude API)**,
-      Next.js, React, Tailwind CSS — list everything you actually used once you've extended it.
-- [ ] Swap the seed data / demo accounts for your own team's fictional examples if you want the
-      demo to feel more personal — just don't use anyone's real academic records.
-- [ ] Update `SESSION_SECRET` before deploying anywhere public.
